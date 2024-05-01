@@ -1,0 +1,23 @@
+# MkDocsのビルド出力を無視
+site/
+
+# 一般的な無視ルール（オプション）
+.DS_Store
+*.pyc
+__pycache__/
+*.pyo
+
+
+# VSCode の設定ディレクトリとファイル
+.vscode/
+*.code-workspace
+
+# 一時ファイル
+*.log
+*.tmp
+*.tlog
+*.bak
+*.cache
+
+# ローカル履歴 (VSCode の拡張機能が生成する場合があります)
+.history/
